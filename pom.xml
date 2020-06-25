@@ -37,8 +37,8 @@
           <goals>
              <goal>deploy</goal>
           </goals>
-        <execution>
-      <executions>
+        </execution>
+      </executions>
       <configuration>
         <serverId>nexus</serverId>
         <nexusUrl>http://localhost:8081/</nexusUrl>
