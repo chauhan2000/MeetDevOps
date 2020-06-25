@@ -8,7 +8,7 @@
   <distributionManagement>
     <snapshotRepository>
       <id>nexus01</id>
-      <url>http://localhost:8081/repositories/repo1</url>
+      <url>http://localhost:8081/#admin/repository/repositories/repo1</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
