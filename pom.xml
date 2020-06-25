@@ -39,7 +39,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.0</version>
         <configuration>
-          <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>
+          <!--<webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>-->
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
