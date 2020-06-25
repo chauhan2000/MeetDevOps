@@ -44,7 +44,7 @@
         <nexusUrl>http://localhost:8081/</nexusUrl>
         <skipStaging>true</skipStaging>
       </configuration>
-    <plugin>
+    </plugin>
   </plugins>
   </build>
     
