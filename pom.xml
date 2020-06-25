@@ -7,7 +7,7 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>releases</id>
+      <id>nexus01</id>
       <url>http://localhost:8081/repositories/repo1</url>
     </snapshotRepository>
   </distributionManagement>
@@ -40,7 +40,7 @@
         </execution>
       </executions>
       <configuration>
-        <serverId>nexus</serverId>
+        <serverId>nexus01</serverId>
         <nexusUrl>http://localhost:8081/</nexusUrl>
         <skipStaging>true</skipStaging>
       </configuration>
