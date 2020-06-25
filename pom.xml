@@ -3,6 +3,7 @@
   <groupId>meet</groupId>
   <artifactId>meet</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
 
 
   <distributionManagement>
