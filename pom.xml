@@ -11,6 +11,7 @@
       <url>http://localhost:8081/repositories/repo1</url>
     </snapshotRepository>
   </distributionManagement>
+  <build>
   <plugins>
     <plugin>
       <artifactId>maven-deploy-plugin</artifactId>
@@ -45,5 +46,6 @@
       </configuration>
     <plugin>
   </plugins>
+  </build>
     
 </project>
