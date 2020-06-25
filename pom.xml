@@ -3,4 +3,47 @@
   <groupId>meet</groupId>
   <artifactId>meet</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>releases</id>
+      <url>http://localhost:8081/repositories/repo1</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <plugins>
+    <plugin>
+      <artifactId>maven-deploy-plugin</artifactId>
+      <version>2.8.1</version>
+      <executions>
+        <execution>
+           <id>default-deploy</id>
+           <phase>deploy</phase>
+           <goals>
+                <goal>deploy</goal>
+           </goals>
+        </execution>
+      </executions>
+    </plugin>
+    <plugin>
+      <groupId>org.sonatype.plugins</groupId>
+      <artifactId>nexus-staging-maven-plugin</artifactId>
+      <version>1.5.1</version>
+      <executions>
+        <execution>
+          <id>default-deploy</id>
+          <phase>deploy</phase>
+          <goals>
+             <goal>deploy</goal>
+          </goals>
+        <execution>
+      <executions>
+      <configuration>
+        <serverId>nexus</serverId>
+        <nexusUrl>http://localhost:8081/</nexusUrl>
+        <skipStaging>true</skipStaging>
+      </configuration>
+    <plugin>
+  </plugins>
+    
 </project>
